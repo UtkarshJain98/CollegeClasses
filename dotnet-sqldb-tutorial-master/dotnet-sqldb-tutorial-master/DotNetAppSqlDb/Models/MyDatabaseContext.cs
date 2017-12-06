@@ -20,5 +20,8 @@ namespace DotNetAppSqlDb.Models
         }
 
         public System.Data.Entity.DbSet<DotNetAppSqlDb.Models.Todo> Todoes { get; set; }
+        public System.Data.Entity.DbSet<DotNetAppSqlDb.Models.TodoList> TodoLists { get; set; }
+        public System.Data.Entity.DbSet<DotNetAppSqlDb.Models.Users> Users { get; set; }
+
     }
 }
